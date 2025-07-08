@@ -1,0 +1,16 @@
+custom:
+  contact:
+    email: president@hoenheimsports.fr
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    protocol: smtp
+    username: contact@hoenheimsports.fr
+    password: #todo
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

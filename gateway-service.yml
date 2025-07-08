@@ -1,0 +1,23 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    config-url: /v3/api-docs/swagger-config
+    urls:
+      - name: gateway-service
+        url: /v3/api-docs
+      - name: contact-service
+        url: /contact-service/v3/api-docs
+      - name: training-service
+        url: /training-service/v3/api-docs
+      - name: facebook-service
+        url: /facebook-service/v3/api-docs
