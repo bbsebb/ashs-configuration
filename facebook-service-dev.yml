@@ -3,12 +3,8 @@ spring:
     compose:
       file: ./backend/docker-compose-support/docker-compose-facebook.yml
       lifecycle-management: start-and-stop
-  flyway:
-    enabled: true
   security:
     oauth2:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:8079/realms/ashs
-server:
-  forward-headers-strategy: framework

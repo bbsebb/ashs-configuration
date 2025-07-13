@@ -1,0 +1,5 @@
+server:
+  forward-headers-strategy: framework
+  spring:
+    flyway:
+      enabled: true
