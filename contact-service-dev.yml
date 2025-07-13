@@ -1,18 +1,7 @@
 custom:
   contact:
-    email: sebastien.burckhardt+dev@hoenheimsports.fr
-spring:
-  mail:
-    host: localhost
-    port: 1025
-    username: ""
-    password: ""
-    properties:
-      mail:
-        smtp:
-          auth: false
-          starttls:
-            enable: false
+    email: ${CONTACT_MAIL:sebastien.burckhardt+dev@hoenheimsports.fr}
+
   docker:
     compose:
       file: ./backend/docker-compose-support/docker-compose-contact.yml
