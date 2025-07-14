@@ -15,3 +15,18 @@ springdoc:
         url: /training-service/v3/api-docs
       - name: facebook-service
         url: /facebook-service/v3/api-docs
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      metrics:
+        enabled: true
+      x-forwarded:
+        enabled: true
+        proto-enabled: true
+        port-enabled: true
+        host-enabled: true
