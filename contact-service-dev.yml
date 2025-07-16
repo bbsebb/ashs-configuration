@@ -1,6 +1,6 @@
 custom:
   contact:
-    email: ${CONTACT_MAIL:sebastien.burckhardt+dev@hoenheimsports.fr}
+    email: ${CONTACT_MAIL}
 
   docker:
     compose:
