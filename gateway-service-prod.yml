@@ -5,8 +5,7 @@ spring:
         cors-configurations:
           '[/**]':
             allowed-origins:
-              - "http://frontend"
-              - "http://admin"
+              - "*"
             allowed-methods:
               - "GET"
               - "POST"
@@ -14,5 +13,7 @@ spring:
               - "DELETE"
               - "OPTIONS"
             allowed-headers:
-              - "*"
-            allow-credentials: true
+              - "Authorization"
+              - "Content-Type"
+              - "Accept"
+#            allow-credentials: true
