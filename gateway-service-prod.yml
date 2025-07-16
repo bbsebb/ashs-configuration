@@ -17,4 +17,4 @@ spring:
               - "Authorization"
               - "Content-Type"
               - "Accept"
-#            allow-credentials: true
+            allow-credentials: true
