@@ -4,3 +4,9 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://keycloak:8079/realms/ashs
+
+facebook:
+  api:
+    url: ${FACEBOOK_API_URI}
+    client-id: ${FACEBOOK_CLIENT_ID}
+    client-secret: ${FACEBOOK_CLIENT_SECRET}
