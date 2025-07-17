@@ -1,3 +1,8 @@
 spring:
   flyway:
     enabled: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${SECURITY_OAUTH2_JWT_ISSUER_URI}

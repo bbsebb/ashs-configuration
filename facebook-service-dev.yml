@@ -3,11 +3,6 @@ spring:
     compose:
       file: ./backend/docker-compose-support/docker-compose-facebook.yml
       lifecycle-management: start-and-stop
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: http://localhost:8079/realms/ashs
 facebook:
   api:
     url: ${FACEBOOK_API_URI}
