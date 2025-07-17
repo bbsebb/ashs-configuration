@@ -18,3 +18,9 @@ spring:
               - "Content-Type"
               - "Accept"
             allow-credentials: true
+
+custom:
+  cors:
+    allowed-origins:
+      - "http://frontend"
+      - "http://admin"
