@@ -9,7 +9,3 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: ${SECURITY_OAUTH2_JWT_ISSUER_URI}
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${EUREKA_SERVER_URI}
