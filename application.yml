@@ -3,8 +3,5 @@ spring:
     problemdetails:
       enabled: true
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${EUREKA_SERVER_URI}
+
 
