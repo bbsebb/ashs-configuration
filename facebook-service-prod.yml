@@ -3,3 +3,10 @@ facebook:
     url: ${FACEBOOK_API_URI}
     client-id: ${FACEBOOK_CLIENT_ID}
     client-secret: ${FACEBOOK_CLIENT_SECRET}
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: ${SECURITY_OAUTH2_JWT_JWK_URI}

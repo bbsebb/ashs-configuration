@@ -3,4 +3,4 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: ${SECURITY_OAUTH2_JWT_JKW_URI}
+          jwk-set-uri: ${SECURITY_OAUTH2_JWT_JWK_URI}
