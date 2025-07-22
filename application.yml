@@ -3,7 +3,8 @@ spring:
     problemdetails:
       enabled: true
 
-
+server:
+  forward-headers-strategy: framework
 
 eureka:
   client:

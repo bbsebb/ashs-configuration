@@ -1,7 +1,6 @@
 server:
   error:
     include-stacktrace: never
-  forward-headers-strategy: framework
 
 spring:
   docker:
