@@ -4,10 +4,12 @@ spring:
       globalcors:
         cors-configurations:
           '[/**]':
+            #always add cors allowed origins in custom cors allowed origin below
             allowed-origins:
               - "https://frontend"
               - "https://admin"
               - "https://www.hoenheimsports.fr"
+              - "https://hoenheimsports.fr"
               - "https://admin.hoenheimsports.fr"
             allowed-methods:
               - "GET"
@@ -26,3 +28,6 @@ custom:
     allowed-origins:
       - "https://frontend"
       - "https://admin"
+      - "https://www.hoenheimsports.fr"
+      - "https://hoenheimsports.fr"
+      - "https://admin.hoenheimsports.fr"
