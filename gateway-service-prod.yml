@@ -7,6 +7,8 @@ spring:
             allowed-origins:
               - "https://frontend"
               - "https://admin"
+              - "https://www.hoenheimsports.fr"
+              - "https://admin.hoenheimsports.fr"
             allowed-methods:
               - "GET"
               - "POST"
